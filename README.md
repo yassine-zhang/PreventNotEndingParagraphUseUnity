@@ -1,0 +1,2 @@
+# PreventNotEndingParagraphUseUnity
+专门开发用于Unity程序，防止甲方不结尾款。
