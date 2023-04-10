@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PreventNotEndingParagraph</name>
+    </assembly>
+    <members>
+        <member name="T:Copyright">
+            <summary>
+            Developer's copyright notice.
+            </summary>
+        </member>
+        <member name="M:Copyright.PrintInformation">
+            <summary>
+            Print developer copyright information.
+            </summary>
+        </member>
+        <member name="T:HttpAbstract">
+            <summary>
+            Specification of the http protocol abstract.
+            </summary>
+        </member>
+        <member name="P:HttpAbstract.Data">
+            <summary>
+            Read server data.
+            </summary>
+        </member>
+        <member name="M:HttpAbstract.GetStringData(System.String)">
+            <summary>
+            Get text data from the server.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HttpUtil">
+            <summary>
+            A class of tools used to request network data.
+            </summary>
+        </member>
+        <member name="P:HttpUtil.Data">
+            <inheritdoc/>
+        </member>
+        <member name="M:HttpUtil.GetStringData(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:PreventNotEndingParagraphBrain">
+            <summary>
+            Prevent not ending the plug-in brain.
+            </summary>
+        </member>
+        <member name="F:PreventNotEndingParagraphBrain.url">
+            <summary>
+            The address used to request server data.
+            </summary>
+        </member>
+        <member name="F:PreventNotEndingParagraphBrain.outputCopyright">
+            <summary>
+            Do you want to print developer copyright information?
+            </summary>
+        </member>
+        <member name="F:PreventNotEndingParagraphBrain.outputMasterSwitch">
+            <summary>
+            Specifies the main switch for output debugging information.
+            </summary>
+        </member>
+        <member name="F:PreventNotEndingParagraphBrain.forceToExit">
+            <summary>
+            When read server data does not agree to continue running, exit the current game directly.
+            </summary>
+        </member>
+        <member name="F:PreventNotEndingParagraphBrain.allowInfo">
+            <summary>
+            Correct information is read.
+            </summary>
+        </member>
+        <member name="F:PreventNotEndingParagraphBrain.denyInfo">
+            <summary>
+            Error message read.
+            </summary>
+        </member>
+        <member name="F:PreventNotEndingParagraphBrain.getDataDelay">
+            <summary>
+            Interval for obtaining server data.
+            </summary>
+        </member>
+        <member name="F:PreventNotEndingParagraphBrain.runtimePlatform">
+            <summary>
+            Current game running platform.
+            </summary>
+        </member>
+        <member name="F:PreventNotEndingParagraphBrain.isIdentifiedData">
+            <summary>
+            Whether server data has been identified.
+            </summary>
+        </member>
+    </members>
+</doc>
